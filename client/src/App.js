@@ -7,6 +7,7 @@ import AdminLogin from "./components/admin/AdminLogin.js"
 import AdGallery from "./components/admin/adminInputs/AdGallery.js"
 import {Route, Switch, Redirect} from "react-router-dom"
 import {withAdmin} from "./context/AdminProvider.js"
+import "./style.css"
 
 const App= (props) => {
     const {token, admin, logout} = props
