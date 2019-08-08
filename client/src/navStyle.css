@@ -1,0 +1,17 @@
+nav{
+    height: 55px;
+    width: 100vw;
+    background-color: rgb(224, 183, 190);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 25px;
+}
+
+.navLink{
+    text-decoration: none;
+    margin-right: 25px;
+}
