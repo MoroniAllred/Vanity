@@ -1,6 +1,6 @@
 const express = require("express")
 const adminRouter = express.Router()
-const Admin = require("../modules/admin.js")
+const Admin = require("../modles/admin.js")
 const jwt = require("jsonwebtoken") 
 
 adminRouter.post("/signup", (req , res, next) =>{
