@@ -30,12 +30,12 @@ pictursRouter.get("/", (req, res, next) => {
             {_id: req.params._id},
             req.body,
             {new: true},
-            (err, updatedPics) => {
+            (err, updatedPic) => {
                 if(err){
                     res.status(500)
                     next(err)
                 }else{
-                    res.status(201).send(updatedPics)
+                    res.status(201).send(updatedPic)
                 }
             }
         )
@@ -44,10 +44,10 @@ pictursRouter.get("/", (req, res, next) => {
     pictursRouter.delete("/:_id", (req, res, next) => {
         Pictures.findOneAndRemove({_id: req.params._id}, (err, deletedPic) => {
             if(err){
-                resizeBy.status(500);
+                res.status(500);
                 next(err);
             }else{
-                res.status(202).send({message: `you have deleted ${deletedPic.title}`})
+                res.status(202).send({message: `you have deleted ${deletedPic.title}`, _id: deletedPic._id })
             }      
         })
     })

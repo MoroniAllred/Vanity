@@ -3,13 +3,17 @@ import LoginForm from "./LoginForm"
 import {withAdmin} from "../../context/AdminProvider.js"
 
 class AdminLogin  extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             username: "",
             password: ""
         }
     }
+
+    // componentDidMount = () => {
+    //     this.props.logout()
+    // }
 
     handleChange = e => {
         const {name, value} = e.target
