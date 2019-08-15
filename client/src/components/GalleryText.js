@@ -11,6 +11,8 @@ class GalleryText extends Component{
         }
     }
 
+
+    /* both handleHover and handle leave are for somthing that I want to inpament but isn't working yet */
     handleHover = () => {
         this.setState({
             galleryTitle: "galleryTitle",
@@ -33,12 +35,12 @@ class GalleryText extends Component{
     render(){
         return(
             <div className="galleryTextDiv" onMouseLeave={this.handleLeve}>
-                <h1 className={this.state.galleryTitle}>{this.props.title}</h1>
-                <div className={this.state.beforePic} style={{backgroundImage: `url(${this.props.beforePic})`}}></div>
+                <h1 className="galleryTitle">{this.props.title}</h1>
+                <div className="beforePic" style={{backgroundImage: `url(${this.props.beforePic})`}}></div>
                 <div className="afterPic" style={{backgroundImage: `url(${this.props.afterPic})`}} onMouseEnter={this.handleHover}></div>
-                <h3 className={this.state.picDescription}>Before</h3>
-                <h3 className={this.state.picDescription}>After</h3>
-                <p className={this.state.galleryDescription}>{this.props.description}</p>
+                <h3 className="picDescription">Before</h3>
+                <h3 className="picDescription">After</h3>
+                <p className="galleryDescription">{this.props.description}</p>
             </div>
         )
     }
