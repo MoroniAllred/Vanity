@@ -172,7 +172,7 @@ secondFileUploader = () =>{
                 <h3 className="picDescription">Before</h3>
                 <h3 className="picDescription">After</h3>
                 <p className="galleryDescription" id="description">{this.props.description}</p>
-                <button onClick={this.edditToggle} className={`edit-${this.state.toggle} button`}>Eddit</button>
+                <button onClick={this.edditToggle} className={`edit-${this.state.toggle} button`}>Edit</button>
                 <button onClick={this.delete} className={`edit-${this.state.toggle} button`}>Delete</button>
                     <form className={`form-${this.state.toggle}`} onSubmit={this.handleSubmimt}>
                         <input type="text" name="title" value={this.state.title} placeholder="title" onChange={this.handleChange}/>

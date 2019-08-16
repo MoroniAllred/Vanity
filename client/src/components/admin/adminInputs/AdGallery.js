@@ -192,10 +192,10 @@ class AdGallery extends Component {
                             </div>
                         </form>
                     <div className="whitespace">
-                        <div>Input before image:<input type="file" onChange={this.flieSelectedHandler}/></div>
+                        <div>Before image:<input type="file" onChange={this.flieSelectedHandler}/></div>
                     </div>
                     <div className="whitespace">
-                        <div>Input after image:<input type="file" onChange={this.secondFileUploadHandler}/></div>
+                        <div>After image:<input type="file" onChange={this.secondFileUploadHandler}/></div>
                     </div>
                     <div className="whitespace">
                         <div>
