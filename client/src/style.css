@@ -59,7 +59,7 @@ nav{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 .devider{
@@ -129,15 +129,19 @@ nav{
     align-items: center;
 }
 
-.homeDescription>h1{
+.descriptH1{
     font-family: RalewayR;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(77, 77, 77);
+    margin-bottom: 5px;
 }
 
-.homeDescription>p{
+.missionState{
     font-family: RalewayM;
     color: rgb(77, 77, 77);
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 
@@ -362,7 +366,7 @@ footer{
     
     .homeDescription{
         width: 80%;
-        height: 500px;
+        min-height: 500px;
         text-align: center;
         padding-left: 10px;
     }
@@ -371,6 +375,10 @@ footer{
 }
 
 @media only screen and (max-width: 415px){
+
+    .headImg{
+        height: 75vh;
+    }
 
     .honeDiv{
         flex-direction: column-reverse;
@@ -395,21 +403,17 @@ footer{
     }
 
     .homeDescription{
-        background-color: rgba(224, 183, 190, 0.507);
-        width: 100%;
-        height: 500px;
-        display: flex;
+        min-height: 500px;
         padding: 0;
+        width: 100%;
+    }
+    
+
+    .descriptH1{
+        font-size: 30px;
     }
 
-    .homeDescription>h1{
-        font-family: RalewayR;
-        font-size: 50px;
-        color: rgb(77, 77, 77);
-    }
-
-    .homeDescription>p{
-        font-family: RalewayM;
-        color: rgb(77, 77, 77);
+    .listEnd{
+        padding-bottom: 35px;
     }
 }

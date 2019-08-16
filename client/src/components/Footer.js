@@ -8,6 +8,11 @@ const Footer = () => {
                 <h2>Vanity</h2>
                 <p>Reaching to chang the wold of Beauty</p>
             </div>
+            <div className="footDiv">
+                <h4>Contact</h4>
+                <p>Call: (435) 660-1209</p>
+                <p>Email: ginlybri17@gmail.com</p>
+            </div>
             <div className="footDiv infoColum">
                 <h4>Explore</h4>
                 <Link to="/" className="footLink">Home</Link>
@@ -19,8 +24,7 @@ const Footer = () => {
             </div>
             <div className="footDiv infoColum">
                 <h4>Follow</h4>
-                <a className="footLink" href="">FaceBook</a>
-                <a className="footLink" href="">Instagram</a>
+                <a className="footLink" href="https://istagram.com/beauty_things_by_bri?igshid=50xoozt8111z">Instagram</a>
             </div>
         </footer>
     )
