@@ -15,7 +15,10 @@ const Home = () => {
             <div className="devider"></div>
             <div className="honeDiv">
                 <div className="sideDevider"></div>
+
+                {/* Carousel of pictures */}
                 <VCarousel/>
+                
                 <div className="homeDescription">
                     <h1 className="descriptH1">Mission Statment</h1>
                     <p className="missionState">My mission is to inspire those around me, through my creativity and work ethic. I 

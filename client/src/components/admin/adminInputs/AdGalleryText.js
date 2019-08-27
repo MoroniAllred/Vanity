@@ -31,7 +31,7 @@ class AdGalleryText extends Component{
     delete = () => {
         axios.delete(`/pictures/${this.props._id}`)
         .then(res => {
-            this.props.handleDelet(this.props._id)
+            this.props.handleDelete(this.props._id)
         })
         .catch((err) => console.log(err))
     }
