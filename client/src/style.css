@@ -6,7 +6,7 @@
 }
 /* ** graylayers ** */
 .grayer{
-    background-color: rgba(90, 90, 90, 0.507);
+    background-color: rgba(90, 90, 90, 0.315);
     width: 100%;
     height: 100%;
 }
@@ -54,7 +54,7 @@ nav{
 }
 
 .headImg{
-    background-image: url("https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2F20190828_083102.jpg?alt=media&token=506c156f-9155-4f79-994b-ec724342cce7");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -82,7 +82,7 @@ nav{
     align-items: center;  
     color: rgb(134, 250, 250);
     font-family: RalewayR;
-    font-size: 80px;
+    font-size: 70px;
     text-shadow: 2px 3px rgb(75, 75, 75);
 }
 
@@ -100,23 +100,23 @@ nav{
 }
 
 .carImg1{
-    background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=905a0d0b5d&attid=0.1.3&permmsgid=msg-f:1640452011321032601&th=16c40e69addd7f99&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8OCeKyFi3EDdeU9AxV3OCN7ocUtk3bPVDyEPFclA43k1pPKadP97jk5KzX76jFOJvbjepWYrEHQtknuSTpUbUlzWMpGneq_SCYyNSabRKn28hnYpmtbOtUbs0&disp=emb)
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2FBri%20June19-4a.jpg?alt=media&token=478df6a6-bfe3-4e5e-8016-02e5f5b34f29")
 }
 
 .carImg2{
-    background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=905a0d0b5d&attid=0.1.2&permmsgid=msg-f:1640452011321032601&th=16c40e69addd7f99&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-sSsq9ergl1f6vigEL3s50rGYoxa1nFc_HR6-pRNq4woxdv6HppH6SZckz7bzHiQnPB_PqrCRYH9EzRGCAWX3TTwYFyPygZQVFArLavI0a6BpCQI5eQ8eL4rM&disp=emb)
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2FIMG_20190716_224208_992.jpg?alt=media&token=dbc3ee9d-b12c-4bc6-bb4d-94563bdf6240")
 }
 
 .carImg3{
-    background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=905a0d0b5d&attid=0.1.1&permmsgid=msg-f:1640452011321032601&th=16c40e69addd7f99&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ94gIhA3EJwI61RiyfMaDOm1wjHO6DVHiiKJCdAM01Ajhb-Kz5xWtZJth7XtRFo_mnqw0UnC9sZdOnVkTCyrqhF_bmKFw6SvRF9Bk5tsSXvwH5L4V6qCpRdVHY&disp=emb)
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2FIMG_20190703_224441_953.jpg?alt=media&token=c91c35f5-a47e-4c3d-8d78-f17c431c10bf")
 }
 
 .carImg4{
-    background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=905a0d0b5d&attid=0.1.7&permmsgid=msg-f:1640452011321032601&th=16c40e69addd7f99&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-WKxRrHu7qnIDLSmdTrZ_w5MyzFfKPcaAt4PzomO6Lb_yoMDZQ8L8ceDC98BkP0eKpaYvMd5YvOQHxRHazQVH6wI5BXCG3FjLiok-GyxvKV4462KQdp2qUVOQ&disp=emb)
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2FIMG_20190727_211923_819.jpg?alt=media&token=83575392-0aef-41ee-8548-0a558fbc4cec")
 }
 
 .carImg5{
-    background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=905a0d0b5d&attid=0.1.4&permmsgid=msg-f:1640452011321032601&th=16c40e69addd7f99&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-RbuXHQh3rrFp8izc9XnCiKXVczWUJvct2Xp8vDhEtnf1WmXYu_1gDsOyE8IrFckqA1p5qkzVWZU64FhXHM5iEd5wC9_HMN9s3nLmKTbHfys0VdCfQR7ybJxM&disp=emb)
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vanity-80b98.appspot.com/o/secondGallery%2FIMG_20190719_090438_482.jpg?alt=media&token=b560808b-1ad8-4037-ab78-6e1499c58503")
 }
 
 .homeDescription{
