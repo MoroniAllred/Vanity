@@ -5,13 +5,15 @@ const morgan = require("morgan")
 const mongoose = require("mongoose")
 const expressJwt = require("express-jwt")
 const PORT = process.env.PORT || 7000
+const path = require("path")
 
 //midleware for every request
 app.use(morgan("dev"))
 app.use(express.json())
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 //DB connection
-mongoose.connect("mongodb://localhost:27017/vanityDB", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/vanityDB", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useCreateIndex: true
@@ -36,6 +38,9 @@ mongoose.connect("mongodb://localhost:27017/vanityDB", {
     })
 
 
+    app.get("*", (req, res) => {
+        res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    });
     //port conection
     app.listen(PORT, () => {
         console.log(`Sever is running on ${PORT}`)
